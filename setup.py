@@ -11,10 +11,11 @@
 # limitations under the License.
 
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="torchdyn",
+    packages=find_packages(),
     version="1.0.4",
     author="Michael Poli and Stefano Massaroli",
     description="PyTorch package for all things neural differential equations.",
